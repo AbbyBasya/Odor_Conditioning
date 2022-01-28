@@ -2,6 +2,7 @@
 
 def determine_reward_lickUnlimited (self, action_interval):
     checkperiod = 0.005
+    #test Github!!
     action_timeout = time.time() + action_interval
     right_lick_last = 0
     count = 0
